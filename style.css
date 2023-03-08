@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  body {
+   
+    background-color:#d69dfc ;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  background: url('https://www.scotsman.com/webimg/b25lY21zOjg0YTM0N2ZkLWNhZjctNDY0ZS1hNjA1LWRjODM5ZmNmMTZmMTpkOWU4OTA1MS0zYWQ4LTRhYzItOTU1Mi1kMWRiZGUzOWNkOGY=.jpg') no-repeat;
+  background-size: cover;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  background: url('https://www.scotsman.com/webimg/b25lY21zOjg0YTM0N2ZkLWNhZjctNDY0ZS1hNjA1LWRjODM5ZmNmMTZmMTpkOWU4OTA1MS0zYWQ4LTRhYzItOTU1Mi1kMWRiZGUzOWNkOGY=.jpg') no-repeat;
+  background-size: cover;
+}
+
+
+:focus {
+  outline: 0;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sorteio-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+color:#d69dfc;
+  z-index: 2;
+  text-align: center; /* centraliza o texto */
+}
+
+.box-resultado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  text-align: center; /* centraliza o texto */
+}
+.box-resultado > h1{
+  font-size: 32px;
+}
+.container {
+  max-width: 76rem;
+  height: calc(100vh - 6rem);
+  margin: 3rem auto;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("imagem2.png") no-repeat center center fixed;
+    background-size:contain;
+    overflow-y: hidden;
+}
+  /* color:#d69dfc; */
+
+
+
+
+#randomNumber {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 82px;
+  text-align: center;
+  letter-spacing: 0.005em;
+}
+
+#number {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  background: transparent;
+  transition: border-color 0.2s;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 700;
+  white-space: pre-wrap;
+  line-height: 1.5em; /* aumenta o espaço entre as linhas */
+  background-color: #8cd1d0;
+  border: none;
+  outline: none;
+  /* definindo a forma irregular */
+  clip-path: url("#clip-path-1");
+  border-radius: 10rem;
+  padding: 10px;
+}
+
+.box-numeros-sorteados{
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 100px;
+    padding: 22px 33px;
+    font-size: 26px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #32da2c;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+    background: red;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid #4c0300;
+    box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.25),
+      
+      1px 1px 3px rgba(255, 255, 255, 0.75);
+    position: relative;
+    overflow: visible;
+    transition: 500ms linear;
+    cursor: pointer;
+  }
+  button::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -7px;
+    left: -3px;
+    right: 0;
+    height: 23px;
+    background: url('https://londer.w3spaces.com/assets/nuvem.png') no-repeat 0
+        0,
+      url('https://londer.w3spaces.com/assets/nuvem2.png') no-repeat 50% 0,
+      url('https://londer.w3spaces.com/assets/nuvem3.png') no-repeat 100% 0;
+  }
+
+
+  
+  
+ 
+  
